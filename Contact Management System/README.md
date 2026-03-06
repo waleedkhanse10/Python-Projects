@@ -29,15 +29,17 @@ Allows users to add, search, update, delete, and view contacts — with data sav
 `python main.py`
 
 ### How It Works
-```======= Contact Manager =======
-Enter What you want:
 ```
+======= Contact Manager =======
+Enter What you want:
+
 1. Add Contact
 2. Search Contact
 3. Update Contact
 4. Delete Contact
 5. Show Contacts
 6. Quit
+```
 
 - Contacts are stored in memory using a dictionary
 - On startup, existing contacts are loaded from contacts.txt
