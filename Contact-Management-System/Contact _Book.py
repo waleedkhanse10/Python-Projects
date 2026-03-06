@@ -13,7 +13,7 @@ try:
         read = file.readlines()
         for line in read:
             name, phoneNO = line.strip().split(",")
-            # load to dic
+            # load to dictionary
             contacts[name.upper()] = phoneNO
 
 except FileNotFoundError:
