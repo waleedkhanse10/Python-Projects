@@ -42,6 +42,7 @@ def viewContacts():
 
     if len(contacts) == 0:
         print("Contact List Empty!")
+        return
 
     for name, phoneNO in contacts.items():
         print(f"Name: {name}\nContact No: {phoneNO}")
@@ -93,7 +94,7 @@ def deleteContact():
 def main():
     while True:
         print("======= Contact Manager =======")
-        choice = input("Entet What you want \n1. Add Contact\n2. Search Contact\n3. Update Contact\n4. Delete Contact\n5. Show Contacts\n6. Quite: ")
+        choice = input("Enter What you want \n1. Add Contact\n2. Search Contact\n3. Update Contact\n4. Delete Contact\n5. Show Contacts\n6. Quit: ")
 
         if choice == "1":
             addContact()
