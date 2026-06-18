@@ -1,4 +1,0 @@
-Title: complete loops in python
-Description: complete the loops and practice
-Date/Time: 2 hours
-----------------------------------------------------
